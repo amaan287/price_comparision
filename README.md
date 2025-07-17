@@ -22,4 +22,8 @@ The test automates the process of:
 - **Trace Support**: Full Playwright trace support for debugging failures
 - **TypeScript**: Fully typed implementation with proper interfaces
 
+``` bash
+npm test
+```
+
 ![alt text](image.png)
