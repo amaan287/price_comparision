@@ -23,6 +23,7 @@ The test automates the process of:
 - **TypeScript**: Fully typed implementation with proper interfaces
 
 ``` bash
+npm i
 npm test
 ```
 
