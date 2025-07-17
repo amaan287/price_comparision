@@ -1,0 +1,32 @@
+{
+  "name": "allen-internship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "trace": "npx playwright show-trace",
+    "install:browsers": "npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "price-comparison"
+  ],
+  "author": "Amaan mirza",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14",
+    "dotenv": "^17.2.0"
+  },
+  "dependencies": {}
+}
